@@ -2,9 +2,9 @@
 
 body {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    min-height: 100vh; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     margin: 0;
     background-color: #012f46;
     font-family: 'Roboto', sans-serif;
@@ -14,7 +14,7 @@ body {
 section {
     width: 350px;
     background-color: #004669;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 20px;
 }
@@ -31,15 +31,14 @@ section h1 {
 
 .profile-picture img {
     width: 75px;
-    height: 75px; 
-    border-radius: 50%; 
+    height: 75px;
+    border-radius: 50%;
     margin-right: 10px;
 }
 
-.profile-picture span {
-    color: grey;
-    font-size: 50px;
-    margin-left: 10px;
+.arrow-icon {
+    width: 30px !important;
+    height: auto !important;
 }
 
 button {
