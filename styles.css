@@ -1,0 +1,75 @@
+/** @format */
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;
+    background-color: #012f46;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+section {
+    width: 350px;
+    background-color: #004669;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    padding: 20px;
+}
+
+section h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 75px;
+    height: 75px; 
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+.profile-picture span {
+    color: grey;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+button {
+    font-family: inherit;
+    letter-spacing: inherit;
+    background-color: #0080c0;
+    color: white;
+    border: none;
+    padding: 0.75em 1.25em;
+    font-size: 1rem;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 1.5em 0 1em 0;
+}
+
+button:hover {
+    background-color: #0077a2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 2em 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
