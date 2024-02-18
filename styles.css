@@ -16,7 +16,7 @@ section {
     background-color: #004669;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    padding: 20px;
+    padding: 1em 2em;
 }
 
 section h1 {
